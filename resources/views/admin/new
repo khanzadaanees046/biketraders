@@ -1,0 +1,19 @@
+<td>
+                        @if($installment->f_installment_status == 1) 
+                        <span class="badge bg-success"><span><i class="bi bi-check-circle"></i></span> Paid</span>
+                        @else
+                        <span class="badge bg-secondary"><span><i class="bi bi-x-circle"></i></span> Unpaid</span>
+                        @endif
+                        <br>
+                        @if($installment->s_installment_status == 1) 
+                        <a href="{{url('unpaid_second_installment', $installment->id)}}" onclick="confirmation(event)"><span class="badge bg-success"><span><i class="bi bi-check-circle"></i></span> Paid</span></a>
+                        @else
+                        <a href="{{url('paid_second_installment', $installment->id)}}" onclick="addconfirmation(event)"><span class="badge bg-secondary"><span><i class="bi bi-x-circle"></i></span> Unpaid</span></a>                        
+                        @endif
+                        <br>
+                        @if($installment->t_installment_status == 1) 
+                        <a href="{{url('unpaid_third_installment', $installment->id)}}" onclick="confirmation(event)"><span class="badge bg-success"><span><i class="bi bi-check-circle"></i></span> Paid</span></a>
+                        @else
+                        <a href="{{url('paid_third_installment', $installment->id)}}" onclick="addconfirmation(event)"><span class="badge bg-secondary"><span><i class="bi bi-x-circle"></i></span> Unpaid</span></a>                        
+                        @endif
+                    </td>

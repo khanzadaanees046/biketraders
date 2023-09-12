@@ -1,0 +1,825 @@
+/* --- header ---- */
+.navbar .container {
+    background: #fff;
+    border-radius: 24px;
+    padding: 12px 18px;
+    box-shadow: 6px 16px 40px #2b2a3514;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+.navbar .logo {
+    width: 102px;
+}
+.navbar .nav-link {
+    color: #2B2A35;
+}
+.navbar button {
+    color: #7E3DFE;
+}
+.navbar .sign-up {
+    border: 1px solid #7E3DFE;
+    border-radius: 30px;
+    padding: 4px 20px;
+}
+.navbar .form-select {
+    border-radius: 30px !important;
+    width: auto !important;
+    box-shadow: 0px 0px 22px 0px #0000001A;
+    margin-left: 15px;
+    border: none !important;
+}
+/* ---- mian section ---- */
+.main-section {
+    font-family: 'Poppins', sans-serif;
+}
+.main-section h6 {
+font-weight: 500;
+font-size: 24px;
+}
+.main-section h1 {
+    font-size: 72px;
+    font-weight: 500;
+    /* line-height: 86px; */
+    font-family: 'Inter', sans-serif;
+
+}
+.main-section h1 span {
+    color: #7E3DFE;
+}
+.main-section p {
+    font-size: 16px;
+    font-weight: 500;
+}
+.main-section button {
+    background: #7E3DFE;
+    padding: 7px 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+}
+/* -------- scrolling ------- */
+
+
+.scrolling-text-container {
+    width: 100%;
+    padding: 10px;
+    background: #7E3DFE;
+    height: 60px;
+    color: white;
+    overflow: hidden;
+}
+
+.scrolling-text {
+    white-space: nowrap;
+    animation: scrollText 10s linear infinite;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%); /* Adjust the number of repetitions here */
+    }
+}
+/* ------------ */
+.habit {
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+.habit .container{
+    padding: 5rem 0;
+}
+.habit h1 {
+    font-size: 24px;
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 54px
+}
+.habit h6 {
+    font-size: 24px;
+   
+}
+.habit .carousel-control-prev  {
+    position: absolute;
+    width: auto;
+    left: 20px;
+    bottom: -250px;
+}
+ .habit .carousel-control-next {
+    left: 60px;
+    bottom: -250px;
+    position: absolute;
+    width: fit-content;
+
+
+ }
+ .carousel-control-prev-icon {
+background: #DDDFE5;
+border: 1ps solid #DDDFE5;
+width: auto;
+border-radius: 30px;
+
+padding: 5px;
+border: 1ps solid #DDDFE5;
+background-size: 60% 70% !important;
+}
+.carousel-control-next-icon {
+background: #DDDFE5;
+border-radius: 30px;
+background-size: 60% 70% !important;
+padding: 5px;
+border: 1ps solid #DDDFE5;
+
+width: auto;
+
+}
+.habit .step-btn {
+    border: 1px solid #8B96A2;
+    color: #8B96A2;
+    border-radius: 50px;
+    padding: 3px 10px;
+    display: block;
+    margin-bottom: 30px;
+    background: transparent;
+}
+.habit .step-btn.active {
+    background: #7E3DFE;
+    border: 1px solid #7E3DFE;
+    color: #fff;
+}
+.step-btn {
+    background-color: #ccc; /* Default color for non-active buttons */
+  }
+  
+  /* Style the active step button */
+.step-btn.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .habit .heading {
+    font-size: 20px;
+    color: #8d8f91 ;
+    font-weight: 800;
+    margin-left: 10px;
+  }
+  .tab-p {
+    display: none;
+  }
+  /* Style the heading when the step button is active */
+  .step-btn.active + .step-content .heading {
+    color: #7E3DFE;
+  }
+  .step-btn.active + .step-content .tab-p {
+    display: block ;
+  }
+  .habit .tab-p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+  .carousel-indicators  {
+    display: block !important;
+    margin: 0 !important;
+    position: relative !important;
+    margin-top: 3rem !important;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 100px !important;
+    text-indent: 0 !important;
+    height: 30px !important;
+    padding: 3px !important;
+    flex: none;
+    border: 1px solid #8B96A2 !important;
+  }
+
+  /* ----------- changing-section ------------- */
+  .changing-section {
+    padding: 5rem 0;
+    font-family: 'Poppins', sans-serif;  
+}
+  .changing-section h3 {
+    font-weight: 500;
+    font-size: 54px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+  }
+  .changing-section p {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+  }
+  .changing-section span {
+    color: #7E3DFE;
+  }
+  .changing-section .cards button {
+    border: 1px solid #F670B5;
+    border-radius: 16px;
+    padding: 7px 10px;
+    width: -webkit-fill-available;
+    background: transparent;
+    font-weight: 600;
+  }
+  .changing-section .cards .box {
+    border: 1px solid #F670B5;
+    text-align: center;
+    padding: 20px;
+    border-radius: 16px;
+  }
+  .box .list-group {
+      border-radius: 16px;
+  }
+  .box .list-group-item {
+    border: none;
+
+  }
+  .box .list-group-item i {
+    color: #F670B5;
+    font-size: 18px;
+
+  }
+  .changing-section .cards .box .red-btn span {
+    color: #F670B5;
+
+  }
+  .changing-section .cards .box .red-btn {
+    background: #FEEEF6;
+    border-radius: 12px;
+    border: 1px solid #FEEEF6;
+  }
+  .changing-section .cards .right-box .red-btn span {
+    color: #7E3DFE !important;
+  } 
+  .changing-section .cards .box .red-btn {
+    background: #F2ECFF;
+  }
+   .right-box .list-group-item i {
+    color: #7E3DFE !important;
+    font-size: 18px;
+  }
+  .changing-section .cards .right-box  {
+    border: 1px solid #7E3DFE;
+  }
+  .changing-section .cards .right-btn {
+    border: 1px solid #7E3DFE;
+  }
+  /* ------ below-scroll ------ */
+  
+ .below-scroll {
+    width: 100%;
+    padding: 10px;
+    background: #212529;
+    height: 60px;
+    color: white;
+    overflow: hidden;
+}
+
+.below-scrolling-text{
+    white-space: nowrap;
+    animation: scrollText 10s linear infinite;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%); /* Adjust the number of repetitions here */
+    }
+}
+/* ---------- sessions --------- */
+.sessions {
+    background: url('images/div.skyline.png');
+    height: 100vh;
+    background-size: cover;
+    padding-top: 6rem;
+    color: #fff;
+}
+.sessions h1 {
+    font-family: 'Inter';
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 65px;
+    letter-spacing: 0em;
+
+}
+.sessions .insid-img {
+    /* background: url('images/users-connect\ 1\ \(3\).png'); */
+    /* height: 650px; */
+    width: 100%;
+    margin-top: 2rem;
+    /* background-size: cover; */
+    animation-name: zoom;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out; 
+}
+@keyframes zoom {
+    0% {
+      transform: scale(0.6); /* Initial scale (no zoom) */
+    }
+    100% {
+      transform: scale(1); /* Final scale (zoomed by 20%) */
+    }
+  }
+  /* -------- days --------- */
+  .days .card {
+    background: #F2ECFF;
+    margin-top: -30px;
+    border: 1px solid #0000001A;
+    border-radius: 16px;
+    padding: 10px 20px;
+  }
+  .days .card h1 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    color: #7E3DFE;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+.days .card .box {
+    font-size: 16px;
+padding: 12.600000381469727px 22.799999237060547px 12.999998092651367px 19.200000762939453px;
+border-radius: 8px;
+background: #fff;
+
+}
+.days .card .box.active{
+    background: url('images/dayActive.10dcde8c6d6484c4.png');
+    height: 100%;
+    color: #fff;
+
+}
+/* ---------- events ---------- */
+.events {
+    background: url('images/event_desktop_1.png');
+    height: 800px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.events h1 {
+    font-family: 'Inter';
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 65px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+
+}
+.events button {
+
+    background: #F2ECFF;
+    color: #7E3DFE;
+    font-family: Poppins;
+    width: fit-content;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding: 19.809999465942383px 19.160003662109375px 20.190000534057617px 20px;
+    border-radius: 16px;
+    border: none;
+}
+.events .card {
+    border: none;
+    margin-top: 5rem;
+    background: transparent;
+}
+.events p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.events p span {
+    color: #7E3DFE;
+    font-size: 18px;
+    font-weight: 500;
+}
+.events .sign {
+padding: 9.8100004196167px 26.110000610351562px 10.1899995803833px 25px;
+border-radius: 30px;
+background: #7E3DFE;
+color: #fff;
+font-family: 'Poppins';
+font-size: 14px;
+font-weight: 500;
+width: fit-content;
+text-align: center;
+}
+/* ----- dating ---------- */
+.dating {
+    background: #F8F8F8;
+    padding: 5rem 0;
+}
+.dating .accordion-item {
+    margin-bottom: 10px;
+    border-radius: 10px !important;
+    border: none !important;
+}
+.accordion-item:first-of-type {
+    border: 0px !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10 !important;
+    /* border-radius: 8px !important; */
+}
+.accordion-button:not(.collapsed) {
+    background: transparent !important;
+    border-color: none !important;
+    outline: 0 !important;
+}
+.accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+.accordion-button {
+    border-radius: 20px !important;
+    padding: 10px !important;
+}
+/* --------- flick --------- */
+.flick h1{
+    font-family: 'Inter';
+font-size: 54px;
+font-weight: 500;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.flick .col .card {
+    /* height: 100%; */
+    min-height: 380px;
+
+}
+.flick .below-card {
+    
+padding: 19.959999084472656px 19.970003128051758px 27.3699951171875px 19.969999313354492px;
+border-radius: 16px;
+border: 1px solid #2B2A350A;
+box-shadow: 0px 8px 12px -4px #0F103014;
+
+}
+.flick .below-card h6{
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.flick .below-card h6 span {
+    color: #7E3DFE;
+    font-family: 'Poppins';
+font-size: 24px;
+font-weight: 700;
+}
+.flick .below-card button {
+    background: #7E3DFE;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 26px 10px 25px;
+    border: 1px solid #7E3DFE;
+}
+/* ---------- footer---------- */
+footer {
+    background: #F2ECFF;
+    
+}
+/* -------- 2nd page code here */
+/* --------events ------- */
+
+.seconde-events h1 , .category h1{
+    font-family: "Inter";
+    font-size: 54px;
+}
+.seconde-events .card {
+    border: none;
+}
+.seconde-events .card h6 {
+    font-weight: 500;
+}
+.seconde-events .card button {
+    background: #7E3DFE;
+    border-radius: 30px;
+    padding: 7px 20px;
+    border: 1px solid #7E3DFE;
+    color: #fff;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-button-prev {
+    right: 50px !important;
+    left: auto !important;
+  }
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 20px !important;
+  }
+  .dropdown-toggle::after {
+    top: 15px;
+    right: 25px;
+    position: absolute;
+  }
+  .btn.dropdown-toggle {
+      width: -webkit-fill-available;
+        white-space: nowrap;
+        text-align: left !important;
+        background: transparent !important;
+        border: #7E3DFE solid 1px;
+        font-weight: 500 !important;
+        color: #7E3DFE !important;
+  }
+  /* ------- model --------- */
+  .modal-header {
+    padding-bottom: 0 !important;
+    border-bottom: none !important;
+}
+  .modal-content {
+    border-radius: 30px !important;
+  }
+  .modal-content h4 {
+    font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 700px;
+  }
+  .modal-content p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  .modal form input, .modal form select {
+    border-radius: 30px !important;
+  }
+  .modal .submit {
+    background: #7E3DFE !important;
+    width: -webkit-fill-available ;
+    border-radius: 30px;
+  }
+  /* ------- login modal ------- */
+  .login-modal .modal-body button {
+    width: 100%;
+    border-radius: 55px;
+    position: relative;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 15px;
+    /* border: 1px solid #89829D */
+  }
+  .login-modal .google {
+    border: 1px solid #89829D;
+    background: transparent;
+    padding: 8px ;
+  }
+  .login-modal .facebook {
+    color: white;
+    border: 1px solid #3975EA;
+    background: #3975EA;
+    padding: 8px ;
+  }
+  .login-modal .google img {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+  }
+  .login-modal .facebook img {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+  }
+  /* -------- registration page ------- */
+  .registration  {
+    font-family: 'Poppins';
+  }
+  .registration .box{
+    border: 1px solid #7E3DFE;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .registration .box h6 {
+    font-size: 16px;
+  }
+  .registration .box p {
+    font-size: 14px;
+  }
+ 
+  .registration .balance {
+    background: #D8C6FF;
+    color: #7E3DFE;
+    border-radius: 5px;
+    border: none;
+    margin: 7px 0;
+    padding: 0 10px;
+  }
+  .registration .below-box {
+    border: 1px solid #89829D33;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  .registration .below-box h6 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .registration .below-box input{
+   width: -webkit-fill-available;
+   border: none;
+   font-size: 14px;
+  }
+  .registration .below-box input::placeholder{
+    font-size: 14px;
+  }
+  .registration .below-box input:focus {
+    outline: none;
+  }
+  .registration h5 {
+    font-size: 20px;
+    font-weight: 600;
+    
+  }
+  .registration .card-type {
+    border: 1px solid #89829D33;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .registration .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    border: 1px solid #7E3DFE;
+    background: #F2ECFF;
+  }
+  .registration .right-box {
+    border: 1px solid #89829D33;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding: 20px ;
+    border-radius: 5px;
+
+  }
+  .registration .right-box p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .registration .right-box p span {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .registration .total p {
+    font-size: 20px;
+  }
+  .registration .right-box .pay-btn {
+    background: #7E3DFE;
+    padding: 8px;
+    color: #fff;
+    border-radius: 50px;
+    width: 100%;
+    border: none;
+    margin-bottom: 1rem;
+  }
+  /* --------- profile ------- */
+  .profile {
+    font-family: 'Poppins';
+
+  }
+  .profile .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border: none !important;
+    border-bottom: 2px solid !important;
+  }
+  .profile  .nav-tabs .nav-link {
+    padding: 0;
+    padding-bottom: 17px !important;
+    color: #212529;
+    margin-right: 35px;
+    font-size: 16px;
+}
+.profile .tab-content .box  {
+    border: 1px solid #89829D33;
+    padding: 20px;
+}
+.profile .tab-content .box .img h5{
+    margin-top: 12px !important;
+    margin-left: 20px;
+}
+.profile .tab-content .box p {
+    font-size: 14px;
+}
+.profile .tab-content .box h6 {
+    font-size: 16px;
+}
+/* ----- booking -------- */
+.booking {
+    font-family: 'Roboto';
+}
+.booking h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.booking .text-area h6 {
+    font-size: 15px;
+}
+.booking .text-area p {
+    font-size: 15px;
+    font-weight: 400;
+}
+.booking .list-group {
+    font-size: 15px;
+    border: none !important;
+    --bs-list-group-border-color: transparent !important;
+    padding: 0 !important;
+}
+.booking .list-group-item {
+    padding-left: 0 !important;
+    padding-bottom: 1px !important;
+}
+.booking .tags {
+    border-radius: 50px;
+    padding: 10px 20px;
+    background: #F8F7FA;
+    border: none;
+    font-size: 11px;
+    margin-right: 15px;
+}
+.booking .box {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: 1px solid #89829D33;
+    border-radius: 5px;
+}
+.booking .box .ticket {
+    background: #EEEAFB;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 7px 15px;
+    border: none;
+}
+.booking .balance {
+    background: #D8C6FF;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 15px;
+    color: #7E3DFE;
+    font-weight: 500;
+}
+.booking .reserve {
+    background: #7E3DFE;
+    border: none;
+    border-radius: 50px;
+    padding: 7px;
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+@media (max-width:568px){
+  .main-section h1 {
+    font-size: 50px ;
+  }
+  .days .card .d-flex.gap-1.justify-content-between.mb-1 {
+    flex-wrap: wrap;
+  }
+  .habit {
+    padding: 10px;
+  }
+  .habit .carousel-item img {
+    margin: auto;
+  }
+  .changing-section h3 {
+    font-size: 35px;
+
+  }
+  .changing-section p {
+    font-size: 17px;
+  }
+  .changing-section .cards .box {
+    margin-bottom: 20px;
+  }
+  .dating img {
+    margin-top: 20px;
+  }
+  .flick h1 {
+    font-size: 35px;
+  }
+}
